@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -11,101 +10,129 @@
       font-family: 'Segoe UI', sans-serif;
       background: #f4f4f8;
       color: #222;
-    }header {
-  padding: 80px 20px;
-  text-align: center;
-  background: linear-gradient(135deg, #6a4fbf, #8870e0);
-  color: white;
-}
+    }
 
-header h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-  font-weight: 700;
-}
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #6a4fbf, #8870e0);
+      color: white;
+    }
 
-header p {
-  font-size: 1.2rem;
-  opacity: 0.9;
-}
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
 
-nav {
-  background: white;
-  padding: 15px 20px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
 
-nav a {
-  text-decoration: none;
-  color: #5a4aaa;
-  font-weight: 600;
-}
+    nav {
+      background: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
 
-section {
-  max-width: 1000px;
-  margin: 50px auto;
-  padding: 20px;
-}
+    nav a {
+      text-decoration: none;
+      color: #5a4aaa;
+      font-weight: 600;
+    }
 
-h2 {
-  color: #5a4aaa;
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
+    section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 20px;
+    }
 
-.card {
-  background: white;
-  padding: 25px;
-  border-radius: 16px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-  margin-top: 20px;
-}
+    h2 {
+      color: #5a4aaa;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
 
-.media {
-  margin-top: 30px;
-  text-align: center;
-}
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      margin-top: 20px;
+    }
 
-.media img {
-  width: 100%;
-  max-width: 700px;
-  border-radius: 16px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
-}
+    .media {
+      margin-top: 30px;
+      text-align: center;
+    }
 
-.media iframe {
-  width: 100%;
-  max-width: 700px;
-  height: 400px;
-  border-radius: 16px;
-  border: none;
-}
+    .media img {
+      width: 100%;
+      max-width: 700px;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
 
-footer {
-  text-align: center;
-  padding: 30px;
-  margin-top: 40px;
-  color: #555;
-}
+    .media iframe {
+      width: 100%;
+      max-width: 750px;
+      height: 420px;
+      border-radius: 18px;
+      border: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    }
+
+    .boton {
+      display: inline-block;
+      background: #5a4aaa;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 12px;
+      margin-top: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: .2s;
+    }
+
+    .boton:hover {
+      background: #4a3d9f;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      margin-top: 40px;
+      color: #555;
+    }
 
   </style>
-</head><body>  <header>
+</head>
+
+<body>
+
+  <header>
     <h1>El Adulto Mayor en la Sociedad Actual</h1>
     <p>Comprendiendo su importancia y su papel en la sociedad moderna</p>
-  </header>  <nav>
+  </header>
+
+  <nav>
     <a href="#quien">¿Quién es?</a>
     <a href="#familia">En la Familia</a>
     <a href="#abandono">Abandono</a>
     <a href="#derechos">Derechos</a>
     <a href="#media">Imágenes y Video</a>
-  </nav>  <section id="quien">
+  </nav>
+
+  <section id="quien">
     <h2>¿Quién es el Adulto Mayor?</h2>
     <div class="card">
       <p>
@@ -114,7 +141,9 @@ footer {
         del entorno y el apoyo recibido.
       </p>
     </div>
-  </section>  <section id="familia">
+  </section>
+
+  <section id="familia">
     <h2>El Adulto Mayor dentro de la Familia</h2>
     <div class="card">
       <p>
@@ -122,15 +151,19 @@ footer {
         Aunque representan sabiduría y experiencia, en ocasiones carecen de apoyo económico o emocional.
       </p>
     </div>
-  </section>  <section id="abandono">
+  </section>
+
+  <section id="abandono">
     <h2>Abandono y Vulnerabilidad</h2>
     <div class="card">
       <p>
         El abandono puede manifestarse emocional, económico o físicamente. Muchos adultos mayores son
-        obligados a pedir dinero, viven maltrato o incluso se ven forzados a salir de sus hogares.
+        obligados para pedir dinero, viven maltrato o incluso se ven forzados a salir de sus hogares.
       </p>
     </div>
-  </section>  <section id="derechos">
+  </section>
+
+  <section id="derechos">
     <h2>Derechos y Protección</h2>
     <div class="card">
       <p>
@@ -138,12 +171,27 @@ footer {
         transporte y atención preferencial.
       </p>
     </div>
-  </section>  <section id="media">
+  </section>
+
+  <section id="media">
     <h2>Imágenes y Video</h2>
     <div class="media">
-    <iframe src="vid8.mp4" allowfullscreen></iframe>
-     <a href="adulto_2.html" class="boton">Siguiente página</a>
-</div>
+
+      <!-- VIDEO DE GOOGLE DRIVE INCORPORADO -->
+      <iframe 
+        src="https://drive.google.com/file/d/1gCvPNMhXiogva3wDeSy7AM4ngl5-61kI/preview" 
+        allow="autoplay; fullscreen">
+      </iframe>
+
+      <br>
+
+      <a href="adulto_2.html" class="boton">Siguiente página</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 | Proyecto educativo – El Adulto Mayor en la Sociedad
+  </footer>
 
 </body>
 </html>
