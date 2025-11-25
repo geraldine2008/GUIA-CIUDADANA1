@@ -4,66 +4,182 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto y Recursos</title>
+
   <style>
-    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #f4f4f8; color: #222; }
-    header { padding: 60px 20px; text-align: center; background: linear-gradient(135deg, #6a4fbf, #8870e0); color: white; }
-    header h1 { font-size: 2.6rem; margin: 0; }
-    header p { margin-top: 10px; font-size: 1.1rem; opacity: .9; }
-    .container { max-width: 900px; margin: 40px auto; padding: 20px; }
-    h2 { color: #5a4aaa; font-size: 1.9rem; margin-bottom: 10px; }
-    .card { background: white; padding: 22px; border-radius: 14px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); margin: 20px 0; }
-    .formulario input, .formulario textarea { width: 100%; padding: 10px; margin-top: 10px; border-radius: 10px; border: 1px solid #ccc; }
-    .boton { display: inline-block; background: #5a4aaa; color: white; padding: 12px 20px; border-radius: 10px; text-decoration: none; margin-top: 20px; }
-    iframe { width: 100%; height: 350px; border-radius: 16px; margin-top: 15px; border: none; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f3f2f8;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 70px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #5e4bbf, #8f7ae6);
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2.7rem;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    header p {
+      margin-top: 12px;
+      opacity: .9;
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 950px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 1.9rem;
+      color: #4a3d9f;
+      margin-top: 40px;
+      margin-bottom: 12px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      margin-bottom: 30px;
+      transition: .2s;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #5e4bbf;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .video-box {
+      background: white;
+      padding: 25px;
+      border-radius: 18px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.09);
+      margin-top: 40px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 420px;
+      border: none;
+      border-radius: 16px;
+    }
+
+    .logo {
+      display: block;
+      margin: 25px auto;
+      width: 65px;
+    }
+
+    .boton {
+      display: inline-block;
+      background: #5e4bbf;
+      color: white;
+      padding: 14px 24px;
+      border-radius: 12px;
+      margin: 35px auto;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1.05rem;
+      font-weight: 600;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: .2s;
+    }
+
+    .boton:hover {
+      background: #4a3d9f;
+    }
+
+    footer {
+      padding: 30px 0;
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: .6;
+      margin-top: 40px;
+    }
   </style>
 </head>
 
 <body>
+
   <header>
     <h1>Contacto y Recursos</h1>
-    <p>Información útil para recibir apoyo y orientación</p>
+    <p>Accede fácilmente a apoyo, orientación y servicios importantes</p>
   </header>
 
   <div class="container">
 
     <h2>Teléfonos Importantes</h2>
     <div class="card">
-      <p>Instituciones públicas de ayuda.</p>
+      <p>Números de instituciones públicas de atención y ayuda.</p>
       <ul>
-        <li>• 726-262-1416</li>
-        <li>• 726-262-0221</li>
-        <li>• 722-646-5643</li>
+        <li>726-262-1416</li>
+        <li>726-262-0221</li>
+        <li>722-646-5643</li>
       </ul>
     </div>
 
     <h2>Instituciones de Apoyo</h2>
     <div class="card">
-      <p>Las siguientes instituciones ayuan al adulto mayor. </p>
+      <p>Instituciones que brindan apoyo al adulto mayor.</p>
       <ul>
-        <li>• DIF Valle de Bravo.</li>
-        <li>• Patronato de San Vicente Valle de Bravo </li>
-        <li>• Ministerio Público.</li>
+        <li>DIF Valle de Bravo</li>
+        <li>Patronato de San Vicente, Valle de Bravo</li>
+        <li>Ministerio Público</li>
       </ul>
     </div>
 
     <h2>Direcciones</h2>
     <div class="card">
-      <p>Ubicaciones</p>
+      <p>Ubicaciones en Google Maps.</p>
       <ul>
-        <li>
-        <a href="https://share.google/ZCjpultSqhLKKUK5q">DIF</a></li>
-        <li><a href="https://share.google/KBf07wqt7YiJvd5XG">Patronato de san Vicente</a></li>
-        <li><a href="https://share.google/qBnztxopac0Ttkmqi">Ministerio público</a></li>
+        <li><a href="https://share.google/ZCjpultSqhLKKUK5q" target="_blank">DIF Valle de Bravo</a></li>
+        <li><a href="https://share.google/KBf07wqt7YiJvd5XG" target="_blank">Patronato de San Vicente</a></li>
+        <li><a href="https://share.google/qBnztxopac0Ttkmqi" target="_blank">Ministerio Público</a></li>
       </ul>
     </div>
-        <center>
-      <img src="cuidadano.png" width="50" height="50">
-      <iframe src="vid10.mp4" width="89%" height="89%"  allowfullscreen></iframe>
 
+    <!-- LOGO -->
+    <img class="logo" src="cuidadano.png" alt="Logo ciudadano">
 
-    <a href="index.html" class="boton">Volver al inicio</a>
-    </center>
+    <!-- VIDEO CON MEJOR PRESENTACIÓN -->
+    <div class="video-box">
+      <h2>Video Informativo</h2>
+
+      <iframe src="https://drive.google.com/file/d/1Zo4PrVejQW4hbRZ_VrNrfXHl_4Jf83q-/preview" allow="autoplay"></iframe>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="index.html" class="boton">Volver al inicio</a>
+    </div>
 
   </div>
+
+  <footer>
+    © 2025 | Página informativa de apoyo comunitario
+  </footer>
+
 </body>
 </html>
