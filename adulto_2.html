@@ -4,120 +4,180 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Servicios y Apoyos para el Adulto Mayor</title>
+
   <style>
-    body { 
-      margin: 0; 
-      font-family: 'Segoe UI', sans-serif; 
-      background: #f4f4f8; 
-      color: #222; 
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f3f7;
+      color: #303030;
     }
 
-    header { 
-      padding: 60px 20px; 
-      text-align: center; 
-      background: linear-gradient(135deg, #6a4fbf, #8870e0); 
-      color: white; 
+    /* ===== HEADER ===== */
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #6a4fbf, #9584e6);
+      color: white;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
     }
 
-    header h1 { 
-      font-size: 2.6rem; 
-      margin: 0; 
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      font-weight: 700;
     }
 
-    header p { 
-      margin-top: 10px; 
-      font-size: 1.1rem; 
-      opacity: .9; 
+    header p {
+      font-size: 1.2rem;
+      opacity: .9;
     }
 
-    .container { 
-      max-width: 900px; 
-      margin: 40px auto; 
-      padding: 20px; 
+    /* ===== CONTENEDOR ===== */
+    .container {
+      max-width: 960px;
+      margin: 50px auto;
+      padding: 20px;
     }
 
-    h2 { 
-      color: #5a4aaa; 
-      font-size: 1.9rem; 
-      margin-bottom: 10px; 
+    /* ===== TITULOS ===== */
+    h2 {
+      font-size: 2rem;
+      color: #5a48b8;
+      margin-top: 50px;
+      margin-bottom: 15px;
+      text-align: center;
+      font-weight: 700;
     }
 
-    .card { 
-      background: white; 
-      padding: 22px; 
-      border-radius: 14px; 
-      box-shadow: 0 4px 14px rgba(0,0,0,0.08); 
-      margin: 20px 0; 
-    }
-
-    a.boton { 
-      display: inline-block; 
-      margin: 12px; 
-      background: #5a4aaa; 
-      color: white; 
-      padding: 12px 20px; 
-      border-radius: 10px; 
-      text-decoration: none; 
-      font-weight: 600;
-    }
-
-    iframe {
-      border-radius: 16px;
+    /* ===== TARJETAS ===== */
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
       margin-top: 20px;
+      line-height: 1.7;
+      font-size: 1.1rem;
+      transition: .3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    }
+
+    /* ===== BOTONES ===== */
+    a.boton {
+      display: inline-block;
+      margin: 15px;
+      background: #6a4fbf;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
       box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: .25s;
+    }
+
+    a.boton:hover {
+      background: #5740a5;
+      transform: translateY(-3px);
+    }
+
+    /* ===== MULTIMEDIA ===== */
+    iframe {
+      width: 95%;
+      max-width: 850px;
+      height: 430px;
+      border-radius: 20px;
+      margin-top: 25px;
+      border: none;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.2);
     }
 
     img {
-      margin-top: 20px;
+      margin-top: 25px;
     }
+
+    /* ===== PIE DE PÁGINA ===== */
+    footer {
+      margin-top: 50px;
+      padding: 25px;
+      text-align: center;
+      color: #666;
+      font-size: .9rem;
+    }
+
   </style>
 </head>
 
 <body>
+
   <header>
     <h1>Programas y Apoyos para el Adulto Mayor</h1>
-    <p>Recursos, beneficios y servicios disponibles</p>
+    <p>Descubre los recursos, beneficios y servicios disponibles</p>
   </header>
 
   <div class="container">
 
     <h2>Beneficios Legales</h2>
     <div class="card">
-      <p>Los adultos mayores cuentan con beneficios como descuentos del 50% en espectáculos culturales, transporte urbano con tarifa preferencial, acceso prioritario en instituciones públicas y entrada gratuita a museos y centros culturales.</p>
+      <p>
+        Los adultos mayores tienen derecho a beneficios como descuentos del 50% en espectáculos culturales,
+        transporte urbano preferencial, acceso prioritario en instituciones públicas, y entrada gratuita a museos
+        y centros culturales en todo el país.
+      </p>
     </div>
 
     <h2>Programas del Gobierno</h2>
     <div class="card">
-      <p>Entre los programas principales destacan: pensiones contributivas, pensiones no contributivas, Centros Vida, apoyo alimentario, recreación, actividad física y asistencia médica domiciliaria cuando sea necesario.</p>
+      <p>
+        Entre los programas más importantes se encuentran las pensiones contributivas y no contributivas,
+        apoyo alimentario, recreación, actividad física guiada, asistencia médica domiciliaria y talleres de
+        integración social.
+      </p>
     </div>
 
     <h2>Servicios Comunitarios</h2>
     <div class="card">
-      <p>Existen talleres, actividades grupales, centros de día y espacios comunitarios para fomentar la socialización y bienestar emocional de los adultos mayores.</p>
+      <p>
+        Los centros comunitarios y “Centros de Día” ofrecen actividades, talleres, convivencia, espacios
+        recreativos y apoyo emocional para mejorar la calidad de vida de los adultos mayores.
+      </p>
     </div>
 
     <h2>Recomendaciones de Autocuidado</h2>
     <div class="card">
-      <p>Mantener actividad física ligera, socializar, asistir a chequeos médicos, aprender nuevas actividades y mantener una alimentación adecuada son elementos clave para una vida plena en esta etapa.</p>
+      <p>
+        Mantener actividad física ligera, asistir a chequeos médicos, socializar, aprender nuevas habilidades
+        y llevar una alimentación adecuada son claves para una vida plena, activa y saludable.
+      </p>
     </div>
 
     <center>
-      <img src="cuidadano.png" width="50" height="50">
+      <img src="cuidadano.png" width="60" height="60">
 
-      <!-- VIDEO DE DRIVE FUNCIONANDO -->
+      <!-- ===== VIDEO DE GOOGLE DRIVE (tu link nuevo) ===== -->
       <iframe 
-        src="https://drive.google.com/uc?id=1gCvPNMhXiogva3wDeSy7AM4ngl5-61kI" 
-        width="90%" 
-        height="400" 
-        allowfullscreen>
+        src="https://drive.google.com/file/d/1n-sJCth6W2u5td-z9R3zx1yqbuyeXvcU/preview"
+        allow="autoplay; fullscreen">
       </iframe>
 
       <br><br>
 
       <a href="index.html" class="boton">Volver al inicio</a>
-      <a href="adulto_3.html" class="boton">Avanzar a la siguiente página</a> 
+      <a href="adulto_3.html" class="boton">Siguiente página</a>
     </center>
 
   </div>
+
+  <footer>
+    © 2025 | Proyecto Educativo – Servicios y Apoyos para el Adulto Mayor
+  </footer>
+
 </body>
 </html>
